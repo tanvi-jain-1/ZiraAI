@@ -1,0 +1,22 @@
+Steps to upload project in github
+
+touch .gitignore
+git config --global user.Tanvi
+git config --global user.email "tanviofficial17@gmail.com"
+git init
+git add . 
+git commit -m "Initial Commit"
+git status #Just to see (working tree clean)
+ssh-keygen -t rsa -b 4096 -C "tanviofficial17@gmail.com"
+
+tail <path to id_rsa>
+cat  /c/Users/hp/.ssh/id_rsa.pub
+(you will get key post this command)
+-pub># Add this key to your Github aacount under Settings->SSH and GPG Keys
+
+#git remote add origin <ssh url.git>
+git remote add origin git@github.com:tanvi-jain-1/ZiraAI.git
+
+git push origin master
+
+

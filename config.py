@@ -1,4 +1,4 @@
-apikey="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"
+apikey="API key"
 
 # Steps to generate apikey
 # 1.Create new account at openai

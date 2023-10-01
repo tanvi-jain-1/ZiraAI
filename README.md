@@ -1,2 +1,2 @@
-# ZiraAI
+# OppyAI
 A Virtual Desktop Assistant
